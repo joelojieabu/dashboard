@@ -21,6 +21,31 @@ import { environment } from '../../environments/environment';
         <h1>Real-time Data Dashboard</h1>
       </header>
 
+      <p>
+        The dashboard provides real-time data visualization using WebSockets,
+        ensuring continuous updates without manual refresh. It features:
+      </p>
+
+      <ul>
+        <li>
+          Pie Chart: Displays proportional data distribution, ideal for
+          categorical insights.
+        </li>
+        <li>
+          Bar Chart: Compares numerical values across different categories for
+          trend analysis.
+        </li>
+        <li>
+          Line Graph: Shows data trends over time, useful for monitoring
+          fluctuations and patterns.
+        </li>
+      </ul>
+
+      <p>
+        With live updates, users can track key metrics dynamically, making
+        data-driven decisions efficiently.
+      </p>
+
       <div class="charts-grid">
         <div class="chart-container">
           <h2>Line Chart</h2>
