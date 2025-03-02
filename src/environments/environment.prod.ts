@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  webSocketUrl: 'wss://your-production-api.com/ws',
+  webSocketUrl: 'https://dashboard-server-6p3h.onrender.com',
   useSimulatedData: false,
 };
