@@ -67,35 +67,47 @@ import { environment } from '../../environments/environment';
   styles: [
     `
       .dashboard-container {
-        padding: 20px;
+        padding: 1rem;
+        
       }
 
       header {
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
+        font-family: 'Lato', serif;
+        font-weight: 300;
+        font-style: italic;
       }
 
       h1 {
-        font-size: 24px;
+        font-size: 1rem;
         color: #333;
       }
 
       .charts-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 20px;
+        gap: 1rem;
       }
 
       .chart-container {
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 15px;
+        padding: 1rem;
       }
 
       h2 {
-        font-size: 18px;
+        font-size: 1rem;
         margin-bottom: 15px;
         color: #555;
+        font-family: 'Lato', serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      p,
+      li {
+        font-size: 0.8rem;
       }
     `,
   ],
