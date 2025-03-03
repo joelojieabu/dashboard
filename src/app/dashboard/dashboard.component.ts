@@ -18,7 +18,7 @@ import { environment } from '../../environments/environment';
   template: `
     <div class="dashboard-container">
       <header>
-        <h1>Real-time Data Dashboard</h1>
+        <h1>Secure Dashboard</h1>
       </header>
 
       <p>
